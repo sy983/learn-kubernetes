@@ -18,3 +18,15 @@ spec:
       containers:
         - name: nginx
           image: docker.io/nginx
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 4-pod-tes.
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: docker.io/nginx
+#Always make unique labels,when you will run this yml file, 4th pod won't create due to same labels
