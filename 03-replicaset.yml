@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: 4-pod-tes.
+  name: 4-pod-test
   labels:
     app: nginx
 spec:
